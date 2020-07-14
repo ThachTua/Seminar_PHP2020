@@ -1,0 +1,662 @@
+﻿#wrapper{
+	width:1024px;
+	height:auto;
+	margin:0px auto;
+	}
+#header{
+	width:1024px;
+	height:85px;
+}
+#header-top{
+	height:20px;
+	width:1024px;
+	margin-bottom:5px;
+	}
+#header-top a img{
+	height:20px;
+	width:20px;
+	float:right;
+	}
+#header-top a span{
+	color:#999;
+	text-decoration:none;
+	float:right;
+	margin-top:2px;
+	margin-right:5px;
+	font-family:Tahoma;
+	font-weight:800px;
+
+}
+
+	/*---------------------------------*/
+.search {
+    float: left;
+	padding:25px 25px;
+	padding-left:100px;
+}
+.searchform input[type=submit] 
+{
+	margin-top:2px;
+	border-style:none;
+	width:30px;
+	height:30px;
+	float:right;
+	background:url(../images/nutsearch.jpg) no-repeat;
+
+
+}
+form.searchform {
+    border-style: ridge;
+    width: 250px;
+}
+
+input.s { /*size cua khung input*/
+    width: 220px;
+    height: 25px;
+
+	border-style:hidden;
+}
+/*----------------------------------------*/
+.menu-main2 {
+	background:#000;
+	height: 39px;
+    margin-bottom: 0.5px;
+	margin-top:50px;
+}
+.menu-main2 li {
+	list-style:none;
+	float:left;
+	position:relative;
+}
+.menu-main2 li ul {
+	display:none;
+	background:#DDD;
+	position:absolute;
+	z-index:999;
+	padding-left: 0px;
+}
+
+.menu-main2 li ul li  {
+	border-bottom: 1px solid #3E3B3B;
+	width:100%;
+	
+}
+.menu-main2 li:hover ul {
+	width:260px;
+	display:block
+
+}
+.menu-main2 li a {
+	text-decoration:none;
+	text-transform:none;
+	font-weight:bold;
+	color:#fff;
+	padding:0px 15px;
+	line-height:39px;
+	font-size:14px;
+	font-family:arial;
+
+}
+.menu-main2 li a:hover {
+	color:#ed1c2e;
+
+}
+.menu-main2 li ul li a{
+	font-size:14px;
+	color:#000;
+	font-weight:100;
+	}
+.menu-main2 li ul li a:hover{
+	color:#ed1c2e;
+	}
+.under-menu{
+	height:50px;
+	border-top:1px dotted #999;
+	border-bottom:1px dotted #999;
+	margin-bottom:25px;
+	margin-top:25px;
+}
+.under-menu-left
+{
+	float:left;
+	padding:16px 0px;
+	padding-right:95px;
+	font-size: 14px;
+	font-family:tahoma;
+	color:#666;
+	display:block;
+}
+.under-menu-center
+{
+
+	float:left;
+	padding:16px 0px;
+	padding-right:46px;
+	font-size: 14px;
+	font-family:tahoma;
+	display:block;
+}
+.under-menu-center strong
+{
+	border-right:1px dotted #999;
+	border-left:1px dotted #999;
+	padding-left:18px;
+	padding-right:18px;
+}
+.under-menu-center strong:hover
+{
+	color:#ed1c2e;
+}
+.under-menu-right
+{
+	float:left;
+	padding:16px 0px;
+	font-family:tahoma;
+	font-size: 14px;
+	color:#666;
+	display:block;
+}
+.menu-main2 .arrow-down
+{
+	background-color:#F00;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+#banner{
+	height:300px;
+	background-color:#63F;
+	}
+div#banner img {
+    width: 1024px;
+    height: 300px;
+}
+/*--------------------------------------------MAIN- NƯỚC HOA NAM---------------------------------------------*/
+
+#main{
+	background-color:#FFF;
+	height:auto;
+
+	}
+
+#main ul 
+{
+	float:right;
+}
+#main ul li
+{
+	float:left;
+	list-style:none;
+	padding:4px 4px;
+	border:1px solid #CCC;
+	margin-left:4px;
+}
+#main ul li a:hover
+{
+	color:#F00;
+	text-decoration:underline;
+}
+#main ul li a
+{
+	text-decoration:none;
+	font-size:16px;
+	
+}
+#main strong {
+	color:#C00;
+	font-family:tahoma;
+	font-size:14px;
+}
+#main td a
+{
+	color:#069;
+}
+
+#main_gioithieu
+{
+	height:1300px;
+}
+
+<!------------------------------------------------------------------------->
+div#h2 img {
+    height:40px;
+	width:1024px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	
+
+}
+div#h2-2 img {
+    height:38px;
+	width:1024px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+div#h2-3 img {
+    height:56px;
+	width:1024px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.colum a img {
+    height: 300px;
+    width:256px;
+	float:left;
+	
+}
+.colum a{
+	float:left;
+	width:256px;
+	text-decoration:none;}
+#main table tbody tr td a img{
+	height:300px;
+	width:256px;
+	margin-top:10px;
+}
+#main table tbody tr td a{
+
+	text-decoration:none;
+	}
+#main table tbody tr td b
+{
+	color:#EE3B3B;
+	font-size: 14px;
+
+    font-family: "Open Sans", Arial;
+    font-weight: 700;
+
+}
+#main table tbody tr td a #xemchitiet img{
+
+	height:25px;
+	width:75px;
+	}
+span.roll {
+    background:url(../images/mag.png) center center no-repeat #bebebe;
+    height:310px;
+    position: absolute;
+    width:256px;
+    z-index: 10;
+    -webkit-box-shadow: 0px 0px 4px #000;
+    -moz-box-shadow: 0px 0px 4px  #000;
+    box-shadow: 0px 0px 4px  #000;
+}
+/*------------------------------------FOOTER------------------------------------------------------*/
+#clear
+{
+	clear:both;
+	}
+.footer{
+	margin-top:5px;
+	height:200px;
+	background-color:#FFF;
+	clear:both;
+	border-top:1px solid #ebebeb;
+	}
+div#left{
+	font-size:26px;
+	width:300px;
+	float:left;
+	}
+div#inleft{
+	font-size:16px;
+	width:300px;
+	float:left;
+	}
+div#center1 {
+	float:left;
+	text-decoration:none;
+	}
+div#center1 ul li a{
+
+	text-decoration:none;
+	}
+div#center2 {
+	float:left;
+	margin-left:1px;
+	text-decoration:none;
+	}
+	div#center2 ul li a{
+
+	text-decoration:none;
+	}
+div#right {
+
+float:right;
+margin-right:50px;
+
+
+}
+div#right img {
+	height:45px;
+	width:150px;
+}
+div#right ul li {
+
+
+margin-right:50px;
+list-style:none;
+
+
+
+}
+
+/*------------------------------------------------------------------------------------------*/
+	
+img {
+    height: 80px;
+    width: 350px;
+}
+ul.menu-ul {
+    float: left;
+    list-style: none;
+}
+ul.menu-ul li {
+    float: left;
+    list-style: none;
+	padding-right:44px;
+}
+ulmenu-ul li a{
+    float: left;
+    color:#FFF;
+	text-decoration:none;
+	line-height:11px;
+	
+	
+}
+/*----------------------------Đường kẻ ngang nước hoa hót-------------------------------*/
+h2 {
+    font-family: tahoma;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 35px;
+    text-transform: none;
+}
+.title {
+    clear: both;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.title:before {
+    content: "";
+    display: block;
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+.title span {
+    background: white;
+    padding: 0 20px;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    max-width: 545px;
+}
+
+/*--------------------GIOI THIEU----------------------*/
+
+#sitebar_left
+{	width:250px;
+	clear:both;
+	float:left;
+	border-bottom:1px solid #ebebeb;
+	border-top:1px solid #ebebeb;
+	border-right:1px solid #ebebeb;
+	border-left:1px solid #ebebeb;
+	font-family:Tahoma;
+	font-weight:normal;
+}
+#sitebar_left ul.sitebar_girl a li
+{
+	margin-top:30px;
+	list-style:url(../images/list-style.jpg);
+}
+#sitebar_left ul.sitebar_girl a
+{
+	text-decoration:none;
+}
+#sitebar_left ul.sitebar_girl a li
+{
+	font-family:tahoma;
+	font-size:15px;
+}
+#sitebar_left ul.sitebar_girl li:hover
+{
+	color:#F00;
+}
+ul.sitebar_girl {
+    border-top: 1px solid #ebebeb;
+    margin-top: 32px;
+	padding-bottom:19px;
+}
+#sitebar_left ul.sitebar_boy a li
+{
+	margin-top:30px;
+	list-style:url(../images/list-style.jpg);
+
+}
+#sitebar_left ul.sitebar_boy li:hover
+{
+	color:#F00;
+}
+#sitebar_left ul.sitebar_boy li a
+{
+	text-decoration:none;
+}
+#sitebar_left ul.sitebar_boy a
+{
+	text-decoration:none;
+}
+#sitebar_left ul.sitebar_boy a li
+{
+	font-family:tahoma;
+	font-size:15px;
+}
+
+h4#h4_left
+{	
+	text-align:center;
+	height:45px;
+	width:250px;
+	clear:both;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 47px;
+    text-transform: none;
+	border-bottom:1px solid #ebebeb;
+	border-top:1px solid #ebebeb;
+	border-right:1px solid #ebebeb;
+	border-left:1px solid #ebebeb;
+	padding:5px 0;
+
+}
+#sitebar_right
+{
+	font-size:18px;
+	width:700px;
+	float:right;
+	font-family:"Times New Roman";	
+	
+}
+#sitebar_right p
+{
+	float:right;
+	font-weight:normal;	
+}
+em 
+{
+	color:#C00;
+}
+/******************************NƯỚC HOA NAM**************************************************/
+h3.h3_nuochoanam
+{
+	font-family: tahoma;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: none;
+}
+p.p_nuochoanam
+{
+	color: #242424;
+    font-family: tahoma;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+<!--------------------------------TRANG CHI TIET--------------------------------------->
+#main_chitiet
+{
+	width:1024px;
+	height:auto;
+
+}
+.chitiet_trai
+{
+	width:300px;
+	height:500px;
+	float:left;
+	padding-left:80px;
+}
+.chitiet_trai ul li 
+{	
+	list-style:none;
+}
+.chitiet_trai ul li img
+{
+	height:450px;
+	width:400px;
+	border-right:1px solid #CCC;
+}
+.chitiet_giua 
+{
+	float:left;
+	margin-left:100px;
+	width:298px;
+}
+.chitiet_giua ul li
+{
+	list-style:none;
+	margin:10px 10px;
+	font-size:17px;
+	font-family:Arial;
+}
+.chitiet_giua ul li p
+{
+	font-family:Arial;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#C00;
+	font-size:20px;
+}
+.chitiet_giua ul li strong
+{
+	font-size:17px;
+}
+.chitiet_giua ul li img {
+    height: 45px;
+    width: 178px;
+}
+<!--------------------------------------giohang-------------------------------------------->
+#header{
+	width:1024px;
+	height:85px;
+}
+.header_logo
+{
+	float:left;
+}
+<!--------------------------------------PHAN- TRANG-------------------------------------------->
+a.number_page
+{
+	color:yellow;
+}
+.phan_page
+{
+	border-bottom:1px solid #ebebeb;
+	height:50px;
+}
+.percent_page
+{
+	float:right;
+}
+<!--------------------------------------giohang-------------------------------------------->
+#header{
+	width:1024px;
+	height:85px;
+}
+.shopping_cart
+{
+	width:200px;
+	height:85px;
+	float:right;
+
+}
+.logo_cart
+{
+	height:20px;
+	padding-top:32px;
+}
+.logo_cart span img
+{
+	width:20px;
+	height:20px;
+}
+span.strong_clickhere
+{
+	border-left:1px solid #BBB;
+}
+span.strong_clickhere a img
+{
+	
+	height:33px;
+	width:100px;
+}
+span.logo_cart_span b
+{
+	font-size:20px;
+	font-weight:100;
+	font-family:tahoma;
+}
+span.logo_cart_span strong
+{
+	color:#F00;
+	font-size:23px;
+}
+span.logo_cart_span strong.strong_clickhere a
+{
+	font-family:tahoma;
+	font-weight:100;
+	text-decoration:none;
+	font-size:19px;
+}
+.main-shopping table tbody tr td img {
+    height: 174px;
+    width: 200px;
+}
+.main-shopping table tbody tr td span.del_product img {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+	

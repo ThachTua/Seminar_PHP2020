@@ -1,0 +1,332 @@
+#wrapper{
+	width:1024px;
+	height:auto;
+	margin:0px auto;
+	}
+#header{
+	height:90px;
+	}
+#header-top{
+	height:20px;
+
+	margin-bottom:5px;
+	}
+#header-top a img{
+	height:20px;
+	width:20px;
+	float:right;
+
+
+	}
+#header-top a span{
+	color:#999;
+	text-decoration:none;
+	float:right;
+	margin-top:2px;
+	margin-right:5px;
+
+}
+
+	/*---------------------------------*/
+.search {
+    float: right;
+    margin-top: 25px;
+	margin-right:200px;
+}
+.searchform input[type=submit] 
+{
+	margin-top:2px;
+	border-style:none;
+	width:30px;
+	height:30px;
+	float:right;
+	background:url(../images/nutsearch.jpg) no-repeat;
+
+
+}
+form.searchform {
+    border-style: ridge;
+    width: 250px;
+}
+
+input.s { /*size cua khung input*/
+    width: 220px;
+    height: 25px;
+
+	border-style:hidden;
+}
+/*----------------------------------------*/
+#menu{
+	background-color:#000;
+	height:43px;
+	}
+div#menu ul li a{
+	float: left;
+    color:#FFF;
+	text-decoration:none;
+	line-height:40px;
+	font-size:15px;
+	}
+div#menu ul li{
+	float: left;
+    color:#FFF;
+	list-style:none;
+	margin-left:31px;
+	line-height:40px;
+	}
+/*------------------------------------------------------------------------------------------*/
+#banner{
+	height:300px;
+	background-color:#63F;
+	}
+div#banner img {
+    width: 1024px;
+    height: 300px;
+}
+/*------------------------------------------------------------------------------------------*/
+#main{
+	background-color:#FFF;
+	height:auto;
+
+	}
+#main_gioithieu
+{
+	height:1300px;
+}
+div#h2 img {
+    height:40px;
+	width:1024px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	
+
+}
+div#h2-2 img {
+    height:38px;
+	width:1024px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+div#h2-3 img {
+    height:56px;
+	width:1024px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.colum a img {
+    height: 300px;
+    width:256px;
+	float:left;
+	
+}
+.colum a{
+	float:left;
+	width:256px;
+	text-decoration:none;}
+#main table tbody tr td a img{
+	height:300px;
+	width:256px;
+}
+#main table tbody tr td a{
+
+	text-decoration:none;
+	}
+#main table tbody tr td a #xemchitiet img{
+
+	height:25px;
+	width:75px;
+	}
+span.roll {
+    background:url(../images/mag.png) center center no-repeat #bebebe;
+    height: 355px;
+    position: absolute;
+    width: 256px;
+    z-index: 10;
+    -webkit-box-shadow: 0px 0px 4px #000;
+    -moz-box-shadow: 0px 0px 4px  #000;
+    box-shadow: 0px 0px 4px  #000;
+}
+/*------------------------------------------------------------------------------------------*/
+#clear
+{
+	clear:both;
+	}
+.footer{
+	height:200px;
+	background-color:#FFF;
+	clear:both;
+	}
+div#left{
+	font-size:26px;
+	width:300px;
+	float:left;
+	}
+div#inleft{
+	font-size:16px;
+	width:300px;
+	float:left;
+	}
+div#center1 {
+	float:left;
+	text-decoration:none;
+	}
+div#center1 ul li a{
+
+	text-decoration:none;
+	}
+div#center2 {
+	float:left;
+	margin-left:1px;
+	text-decoration:none;
+	}
+	div#center2 ul li a{
+
+	text-decoration:none;
+	}
+div#right {
+
+float:right;
+margin-right:50px;
+
+
+}
+div#right img {
+	height:45px;
+	width:150px;
+}
+div#right ul li {
+
+
+margin-right:50px;
+list-style:none;
+
+
+
+}
+
+/*------------------------------------------------------------------------------------------*/
+	
+img {
+    height: 80px;
+    width: 350px;
+}
+ul.menu-ul {
+    float: left;
+    list-style: none;
+}
+ul.menu-ul li {
+    float: left;
+    list-style: none;
+	padding-right:44px;
+}
+ulmenu-ul li a{
+    float: left;
+    color:#FFF;
+	text-decoration:none;
+	line-height:11px;
+	
+	
+}
+/*----------------------------Đường kẻ ngang nước hoa hót-------------------------------*/
+h2 {
+    font-family: tahoma;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 35px;
+    text-transform: none;
+}
+.title {
+    clear: both;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.title:before {
+    content: "";
+    display: block;
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+.title span {
+    background: white;
+    padding: 0 20px;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    max-width: 545px;
+}
+
+/*--------------------GIOI THIEU----------------------*/
+#sitebar_left
+{	width:250px;
+	clear:both;
+	float:left;
+	border-bottom:1px solid #ebebeb;
+	border-top:1px solid #ebebeb;
+	border-right:1px solid #ebebeb;
+	border-left:1px solid #ebebeb;
+	font-family:Tahoma;
+	font-weight:normal;
+}
+#sitebar_left ul.sitebar_girl li
+{
+	margin-top:30px;
+	list-style:url(../images/list-style.jpg);
+}
+#sitebar_left ul.sitebar_girl li a
+{
+	text-decoration:none;
+}
+#sitebar_left ul.sitebar_boy li
+{
+	margin-top:30px;
+	list-style:none;
+	list-style:url(../images/list-style.jpg);
+
+}
+#sitebar_left ul.sitebar_boy li a
+{
+	text-decoration:none;
+}
+
+h4#h4_left
+{	
+	text-align:center;
+	height:45px;
+	width:250px;
+	clear:both;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 47px;
+    text-transform: none;
+	border-bottom:1px solid #ebebeb;
+	border-top:1px solid #ebebeb;
+	border-right:1px solid #ebebeb;
+	border-left:1px solid #ebebeb;
+	padding:5px 0;
+
+}
+#sitebar_right
+{
+	font-size:19px;
+	width:700px;
+	float:right;	
+}
+#sitebar_right p
+{
+	float:right;
+	font-weight:normal;	
+}
+
+
+
+
+	

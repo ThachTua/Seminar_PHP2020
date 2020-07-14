@@ -1,0 +1,13 @@
+a.number_page
+{
+	color:red;
+}
+.phan_page
+{
+	border-bottom:1px solid #ebebeb;
+	height:50px;
+}
+.percent_page
+{
+	float:right;
+}
